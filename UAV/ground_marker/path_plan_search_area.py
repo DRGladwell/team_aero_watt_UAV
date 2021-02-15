@@ -10,9 +10,17 @@ A stretch goal it to pane the aircraft (either by role or pitch) to increase the
 Care must be taken to avoid motion blur in input feed.
  '''
 
-# method to calculate the pixel density of a 2x2 piece of land related to aircraft height
+# method to calculate the pixel density of a 2x2 piece of land related to aircraft height (1)
 
 # method that generates the least amount of point in an area such that if the aircraft was positioned in each
-# point it would cover the entier search area with it's field of view.
+# point it would cover the entire search area with it's field of view. (2)
 
-# methode to find the shortest way to navigate through all these points from current position (or some set) position.
+# method to find the shortest way to navigate through all these points from current position (or some set) position. (3)
+
+# method to returns an ordered lost of waypoints (4)
+
+# method to adapt speed of aircraft if images are coming out blurry. (maybe)
+
+# ideally add a method that allows for controller rolling and pitching of the plane in order to extend field of view
+
+# method that runs 1,2,3,4
